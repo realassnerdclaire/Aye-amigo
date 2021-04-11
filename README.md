@@ -1,13 +1,13 @@
 # Aye-migo
 
 ### Inspiration 
-Although there is plentiful website available for dating website and virtual study rooms for students,  making new friends that have the same hobbies, same academic goals, etc is the hardest, espcially during the pandemic.
+Although there is plentiful website available for dating website and virtual study rooms for students, making new friends that have the same hobbies, same academic goals, etc is the hardest, espcially during the pandemic. 
 
 ### What it does:
-It shows preference that the users are looking for new people. The user may join a community with  the same goals. 
+It shows preference that the users are looking for new people. The user may join a community with the same goals. 
 
 ### How we built it:
-We spent a while brainstorming and learning React, and then all worked on different components and implementation details.
+We spent a while brainstorming and building with mostly HTML and CSS, and then all worked on different components and implementation details.
 
 ### Challenges did you run into:
 We had to learn React, as well as attempt to search an api for livestream room called StudyStream. Unfortunately, we ran out of time, so the front-end gui does not display data from the api.
