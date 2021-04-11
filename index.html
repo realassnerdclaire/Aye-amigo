@@ -1,18 +1,12 @@
 <link href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2' rel='stylesheet' type='text/css'>
 
-
-
-
-
-
 <style>
     body {
         background-image: linear-gradient(to bottom, mediumpurple, lightblue);
-        font-family: Arial, Helvetica, sans-serif;
-
+        font-family: 'Open Sans', sans-serif;
     }
 
-
+/*
     .flip-card {
         background-color: transparent;
         width: 300px;
@@ -51,11 +45,7 @@
         background-image: linear-gradient(to right, rebeccapurple , darkblue);
         color: white;
         transform: rotateY(180deg);
-    }
-
-
-
-
+    }*/
 
 
 
@@ -193,27 +183,67 @@
 
 <div class="container">
     <div class="card">
-        <h3 class="title">Card 1</h3>
+        <h3 class="title"> Study Buddy</h3>
         <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+            <div class="formbox">
+                <span data-type="selectors">
+                    <span>
+                        <select> title="Buddy for" class="selectbody">
+                            <option value="0" selected="1">Buddy's major</option>
+                            <option value="1">CS/SE</option>
+                            <option value="2">Computer Engineering</option>
+                            <option value="3">Electrical Engineering</option>
+                            <option value="4">Electronics & Communications Engineering</option>
+                            <option value="5">Information Technology</option>
+                            <option value="6">Mechanical Engineering</option>
+                            <option value="7">Physics</option>
+                            <option value="8">Mathematics</option>
+                            <option value="9">Business Studies</option>
+                            <option value="10">Other</option>
+
+                            </select>
+                         <select title="Buddy's gender is" class="selectbody fl">
+                            <option value="0" selected="1">Buddy's school</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Non-binary</option>
+                            <option value="4">Xe</option>
+                            <option value="5">Others</option>
+
+
+                        </select>
+                    </span>
+                </span>
+            </div>
+
         </div>
-        <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <circle class="stroke" cx="60" cy="60" r="50"/>
-            </svg>
-        </div>
+
     </div>
     <div class="card">
-        <h3 class="title">Card 2</h3>
+        <h3 class="title">Hobbies Buddy</h3>
         <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-        </div>
-        <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <circle class="stroke" cx="60" cy="60" r="50"/>
-            </svg>
+            <div class="formbox">
+                <span data-type="selectors">
+                    <span>
+                        <select> title="Buddy for" class="selectbody">
+                            <option value="0" selected="1">Buddy's music taste</option>
+                            <option value="1">CS/SE</option>
+                            <option value="2">Computer Engineering</option>
+                            <option value="3">Electrical Engineering</option>
+                            <option value="4">Electronics & Communications Engineering</option>
+                            <option value="5">Information Technology</option>
+                            <option value="6">Mechanical Engineering</option>
+                            <option value="7">Physics</option>
+                            <option value="8">Mathematics</option>
+                            <option value="9">Business Studies</option>
+                            <option value="10">Other</option>
+
+                            </select>
+
+                    </span>
+                </span>
+            </div>
+
         </div>
     </div>
     <div class="card">
@@ -248,7 +278,7 @@
 
 
 
-<div class="flip-card">
+<!--<div class="flip-card">
     <div class="flip-card-inner">
         <div class="flip-card-front">
             <h1>Study Buddy</h1>
@@ -276,7 +306,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 
 <div id="navwrapper">
