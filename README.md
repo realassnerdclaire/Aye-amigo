@@ -1,1 +1,2 @@
-# Study-buddy-radar
+# Aye-migo
+
