@@ -1,7 +1,7 @@
 # Aye-migo
 
 ### Inspiration 
-Although there is plentiful website available for dating website and study rooms for students,  making new friends that have the same hobbies, same academic goals, etc is the hardest, espcially during the pandemic.
+Although there is plentiful website available for dating website and virtual study rooms for students,  making new friends that have the same hobbies, same academic goals, etc is the hardest, espcially during the pandemic.
 
 ### What it does:
 It shows preference that the users are looking for new people. The user may join a community with  the same goals. 
