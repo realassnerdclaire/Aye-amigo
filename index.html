@@ -1,53 +1,9 @@
-k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2' rel='stylesheet' type='text/css'>
 
 <style>
     body {
         background-image: linear-gradient(to bottom, mediumpurple, pink, lightblue);
         font-family: 'Open Sans', sans-serif;
     }
-
-/*
-    .flip-card {
-        background-color: transparent;
-        width: 300px;
-        height: 300px;
-        perspective: 1000px;
-    }
-
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-
-    .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
-
-    .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    .flip-card-front {
-        background-image: linear-gradient(to right, red , darkorange);
-        color: white;
-    }
-
-    .flip-card-back {
-        background-image: linear-gradient(to right, rebeccapurple , darkblue);
-        color: white;
-        transform: rotateY(180deg);
-    }*/
-
-
 
     .container {
         position: absolute;
@@ -62,7 +18,7 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
         display: flex;
         height: 580px;
         width: 500px;
-        background-image: linear-gradient(to bottom, red, darkorange, yellow, yellowgreen, darkgreen, lightskyblue, blue, mediumpurple, rebeccapurple);
+        background-image: linear-gradient(to bottom, limegreen, lightseagreen, yellow);
         border-radius: 10px;
         box-shadow: -1rem 0 3rem #000;
         /*   margin-left: -50px; */
@@ -102,39 +58,9 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
         width: 150px;
     }
 
-    .emptybar {
-        background-color: #063273;
-        width: 100%;
-        height: 100%;
-    }
-
-    .filledbar {
-        position: absolute;
-        top: 0px;
-        z-index: 3;
-        width: 0px;
-        height: 100%;
-        background: rgb(0,154,217);
-        background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
-        transition: 0.6s ease-out;
-    }
-
     .card:hover .filledbar {
         width: 120px;
         transition: 0.4s ease-out;
-    }
-
-    .circle {
-        position: absolute;
-        top: 150px;
-        left: calc(50% - 60px);
-    }
-
-    .stroke {
-        stroke: white;
-        stroke-dasharray: 360;
-        stroke-dashoffset: 360;
-        transition: 0.6s ease-out;
     }
 
     svg {
@@ -147,9 +73,6 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
         transition: 0.6s ease-out;
     }
 
-
-
-
     .text-pos {
         height: 100%;
         width: 100%;
@@ -161,7 +84,7 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
 </style>
 
 <body>
-<h1><p style="color:rgb(17,255,0);">AYE-MIGO</p></h1>
+<h1><p style="color:rgb(42,195,32);">AYE-MIGO</p></h1>
 </body>
 </body>
 
@@ -177,14 +100,14 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
 
 
 
-<div class = "cards">
-        <div class = "card-face">
-            <div class = "card-label">
-                <h1>Study Buddy</h1>
-            </div>
-        </div>
+<!--<div class = "cards">-->
+<!--        <div class = "card-face">-->
+<!--            <div class = "card-label">-->
+<!--                <h1>Study Buddy</h1>-->
+<!--            </div>-->
+<!--        </div>-->
 
-</div>
+<!--</div>-->
 
 
 
@@ -306,19 +229,24 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
                     </span>
                 </span>
             </div>
-
+            <div class="formbox">
+                <button type="submit" class="signbut bolder">Click to find out your amigo ;)</button>
+            </div>
         </div>
 
     </div>
+
+
+
     <div class="card">
         <h3 class="title">Hobbies Buddy</h3>
         <div class="bar">
             <div class="formbox">
                 <span data-type="selectors">
                     <span>
-                        <select> title="Buddy's music taste" class="selectbody">
-                            <option value="0" selected="1">Buddy's music taste</option>
-                            <option value="1">CS/SE</option>
+                        <select> title="Music genre" class="selectbody">
+                            <option value="0" selected="1">Music genre</option>
+                            <option value="1"></option>
                             <option value="2">Computer Engineering</option>
                             <option value="3">Electrical Engineering</option>
                             <option value="4">Electronics & Communications Engineering</option>
@@ -334,96 +262,114 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
                     </span>
                 </span>
             </div>
-
+            <div class="formbox">
+                <button type="submit" class="signbut bolder">Click to find out your amigo ;)</button>
+            </div>
         </div>
     </div>
     <div class="card">
-        <h3 class="title">Card 3</h3>
+        <h3 class="title">Hobbies Buddy</h3>
         <div class="bar">
+            <div class="formbox mt1">
+                <span data-type="radio" class="spanpad">
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Horseback riding
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">All water sports
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Hunting/Fishing
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Paddleboarding
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Hking/Camping
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Biking/Running
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Underwater diving
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">All Sport League
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Collecting things
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Painting/Drawing
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Blogging/Writing
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Cooking/Baking
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Knitting/Sewing
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Dancing/Singing
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Weightlifting/Gym
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Yoga/Meditating
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Others
+                    </label>
+                </span>
+            </div>
+            <div class="formbox">
+                <button type="submit" class="signbut bolder">Click to find out your amigo ;)</button>
+            </div>
         </div>
 
     </div>
     <div class="card">
-        <h3 class="title">Card 4</h3>
+        <h3 class="title">Dating Buddy</h3>
         <div class="bar">
+            <div class="formbox mt1">
+                <span data-type="radio" class="spanpad">
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Something casual
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Looking friendship
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Chatting/Calling
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Netflix and chill :)
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Ring on a finger
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Prefer not to say
+                    </label>
+                    <input type="radio" id="fem" class="m0">
+                    <label for="fem" class="gender">Don't know yet
+                    </label>
 
+                </span>
+            </div>
+
+            <div class="formbox">
+                <button type="submit" class="signbut bolder">Click to find out your amigo ;)</button>
+            </div>
         </div>
 
         </div>
     </div>
 </div>
 
-
-
-
-
-
-
-<!--<div class="flip-card">
-    <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <h1>Study Buddy</h1>
-        </div>
-        <div class="flip-card-back">
-            <div class="formbox">
-                <span data-type="selectors">
-                    <span>
-                        <select> title="Buddy for" class="selectbody">
-                            <option value="0" selected="1">Buddy's major</option>
-                            <option value="1">CS/SE</option>
-                            <option value="2">Computer Engineering</option>
-                            <option value="3">Electrical Engineering</option>
-                            <option value="4">Location</option>
-                            <option value="5">University</option>
-                            <option value="6">Party</option>
-                            <option value="7">Sports</option>
-                            <option value="8">Date</option>
-                            <option value="9">Relationship</option>
-                            <option value="10">Advice</option>
-
-                            </select>
-                    </span>
-                </span>
-            </div>
-        </div>
-    </div>
-</div>-->
-
-
-<!--<div id="navwrapper">
-
-    <div id="navbar">
-
-        <table class="tablewrapper">
-            <tr>
-                <td class="row1">Login with email or password :)</td>
-                <td class="row1">Password</td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="text" class="inputtext">
-                </td>
-                <td>
-                    <input type="text" class="inputtext">
-                </td>
-                <td>
-                    <div id="button">Log In</div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="row2">
-                        <input type="checkbox" checked>Keep me logged in</div>
-                </td>
-                <td class="row2 h">What's my password?</td>
-        </table>
-        </style>
-
-
-
-
-    </div>
-</div>-->
 
 
 <div id="contentwrapper">
@@ -495,9 +441,6 @@ k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6
                         <td class="row2 h">What's my password?</td>
                 </table>
                 </style>
-
-
-
 
                 </div>
                 </div>
