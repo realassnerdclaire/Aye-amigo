@@ -1,8 +1,8 @@
-<link href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2' rel='stylesheet' type='text/css'>
+k href='https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2' rel='stylesheet' type='text/css'>
 
 <style>
     body {
-        background-image: linear-gradient(to bottom, mediumpurple, lightblue);
+        background-image: linear-gradient(to bottom, mediumpurple, pink, lightblue);
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -52,17 +52,17 @@
     .container {
         position: absolute;
         height: 300px;
-        width: 600px;
+        width: 1000px;
         top: 60px;
-        left: calc(50% - 300px);
+        left: calc(50% - 500px);
         display: flex;
     }
 
     .card {
         display: flex;
-        height: 280px;
-        width: 200px;
-        background-color: #290b66;
+        height: 580px;
+        width: 500px;
+        background-image: linear-gradient(to bottom, red, darkorange, yellow, yellowgreen, darkgreen, lightskyblue, blue, mediumpurple, rebeccapurple);
         border-radius: 10px;
         box-shadow: -1rem 0 3rem #000;
         /*   margin-left: -50px; */
@@ -200,21 +200,51 @@
                 <span data-type="selectors">
                     <span>
                         <select> title="Buddy for" class="selectbody">
-                            <option value="0" selected="1">Buddy's major</option>
-                            <option value="1">CS/SE</option>
+                            <option value="0" selected="1">major</option>
+                            <option value="1">Computer Science</option>
+                            <option value="1">Software Engineering</option>
+                            <option value="1">Informatics / Information Technology</option>
                             <option value="2">Computer Engineering</option>
                             <option value="3">Electrical Engineering</option>
+                             <option value="3">Machanical Engineering</option>
+                             <option value="3">Material Science</option>
                             <option value="4">Electronics & Communications Engineering</option>
-                            <option value="5">Information Technology</option>
                             <option value="6">Mechanical Engineering</option>
+                            <option value="7">Physics</option>
+                            <option value="7">Chemistry</option>
+                            <option value="7">Biology</option>
+                            <option value="7">Biochemistry</option>
+                            <option value="7">Neuroscience</option>
+                            <option value="7">Environmental Science</option>
+                            <option value="7">Pre-med</option>
+                            <option value="7">Pre-business</option>
+                            <option value="7">Pre-pharm</option>
+                            <option value="7">Accounting</option>
+                            <option value="7">Physics</option>
                             <option value="7">Physics</option>
                             <option value="8">Mathematics</option>
                             <option value="9">Business Studies</option>
-                            <option value="10">Other</option>
+                            <option value="10">Other(Technology)</option>
+                            <option value="10">Other(Engineering)</option>
+
+
+                              </select>
+                         <select title="Buddy's school" class="selectbody fl">
+                            <option value="0" selected="1">class standing</option>
+                            <option value="1">University of Washington - Seattle</option>
+                            <option value="2">University of Washington - Bothell</option>
+                            <option value="3">Univeristy of Washingtn - Tacoma</option>
+                            <option value="4">Seattle University</option>
+                            <option value="5">Seattle Pacific University</option>
+                            <option value="6">Western Washington University</option>
+                            <option value="7">Washington State University</option>
+                            <option value="8">Bellevue College</option>
+                            <option value="9">Seattle Colleges</option>
+                            <option value="10">Green River College</option>
 
                             </select>
-                         <select title="Buddy's school" class="selectbody fl">
-                            <option value="0" selected="1">Buddy's school</option>
+                         <select title="School" class="selectbody fl">
+                            <option value="0" selected="1">school</option>
                             <option value="2015">University of Washington - Seattle</option>
                             <option value="2014">University of Washington - Bothell</option>
                             <option value="2013">Univeristy of Washingtn - Tacoma</option>
@@ -225,6 +255,51 @@
                             <option value="2008">Bellevue College</option>
                             <option value="2007">Seattle Colleges</option>
                             <option value="2006">Green River College</option>
+
+                              </select>
+                         <select title="City" class="selectbody fl">
+                            <option value="0" selected="1">city</option>
+                            <option value="2015">University of Washington - Seattle</option>
+                            <option value="2014">University of Washington - Bothell</option>
+                            <option value="2013">Univeristy of Washington - Tacoma</option>
+                            <option value="2012">Seattle University</option>
+                            <option value="2011">Seattle Pacific University</option>
+                            <option value="2010">Western Washington University</option>
+                            <option value="2009">Washington State University</option>
+                            <option value="2008">Bellevue College</option>
+                            <option value="2007">Seattle Colleges</option>
+                            <option value="2006">Green River College</option>
+
+
+                             </select>
+                         <select title="Buddy's school" class="selectbody fl">
+                            <option value="0" selected="1">GPA(optional)</option>
+                            <option value="2015">University of Washington - Seattle</option>
+                            <option value="2014">University of Washington - Bothell</option>
+                            <option value="2013">Univeristy of Washingtn - Tacoma</option>
+                            <option value="2012">Seattle University</option>
+                            <option value="2011">Seattle Pacific University</option>
+                            <option value="2010">Western Washington University</option>
+                            <option value="2009">Washington State University</option>
+                            <option value="2008">Bellevue College</option>
+                            <option value="2007">Seattle Colleges</option>
+                            <option value="2006">Green River College</option>
+
+                               </select>
+                         <select title="Buddy's school" class="selectbody fl">
+                            <option value="0" selected="1">gender</option>
+                            <option value="2015">University of Washington - Seattle</option>
+                            <option value="2014">University of Washington - Bothell</option>
+                            <option value="2013">Univeristy of Washingtn - Tacoma</option>
+                            <option value="2012">Seattle University</option>
+                            <option value="2011">Seattle Pacific University</option>
+                            <option value="2010">Western Washington University</option>
+                            <option value="2009">Washington State University</option>
+                            <option value="2008">Bellevue College</option>
+                            <option value="2007">Seattle Colleges</option>
+                            <option value="2006">Green River College</option>
+
+
 
 
                         </select>
@@ -265,25 +340,15 @@
     <div class="card">
         <h3 class="title">Card 3</h3>
         <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
         </div>
-        <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <circle class="stroke" cx="60" cy="60" r="50"/>
-            </svg>
-        </div>
+
     </div>
     <div class="card">
         <h3 class="title">Card 4</h3>
         <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+
         </div>
-        <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <circle class="stroke" cx="60" cy="60" r="50"/>
-            </svg>
+
         </div>
     </div>
 </div>
